@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root{
+    --black-color:#313131;
+    --gray-color:#909090;
+    --primary-color:#9B9A78;
+    --white-color:#FFFFFF;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+.word{
+    font-size: 144px;
+    font-weight: 600;
+    line-height: 216px;
+    opacity: 0.05;
+    color: var(--black-color);
+    bottom: 60px;
+    right: 0;
+}
+.elli01{
+    top: 100px;
+}
+.elli02{
+    right: 0;
+}
+nav{
+    height: 120px;
+}
+.navbar-brand{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: var(--black-color);
+}
+.navbar-brand span{
+    color: var(--primary-color);
+}
+.nav-link.active{
+    color: var(--primary-color)!important;
+}
+.nav-link:not(.active){
+    color: var(--black-color);
+}
+.nav-link:hover{
+    color: var(--primary-color);
+}
+.signIn{
+    color: var(--primary-color);
+    margin-left: 20px;
+}
+.main-btn{
+    padding: 16px 32px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    margin-left: 20px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-toggle::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/chevron-down.svg);
+    width: 32px;
+    height: 32px;
+    right: -32px;
+    top: 11px;
+}
+#carouselExampleControls > button.carousel-control-prev{
+    width: 80px;
+    height: 80px;
+    left: 50px;
+    transform: translateY(415%);
+    background-color: #EFEDEA;
+    opacity: 1;
+}
+#carouselExampleControls > button.carousel-control-next{
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-color);
+    opacity: 1;
+    transform: translateY(415%);
+    left: 130px;
+}
+#carouselExampleControls > button.carousel-control-next > span.carousel-control-next-icon{
+    background-image: url(../img/Arrow\ \(5\).svg);
+}
+.carousel-control-prev-icon{
+    background-image: url(../img/Arrow\ \(4\).svg);
+}
+.hero-text + div{
+    gap: 32px;
+    margin-top: 20px;
+}
+.hero-text > span{
+    width: 72px;
+    height: 8px;
+    background-color: var(--primary-color);
+    display: inline-block;
+    border-radius: 2px;
+    right: 90px;
+    top: 50px;
+}
+.checked div img{
+    margin-right: 10px;
+}
+.hero-text{
+    background-color: var(--white-color);
+    opacity: 70%;
+    padding: 32px;
+    margin-left: -140px;
+    margin-top: 50px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: var(--black-color);
+    margin: 0 0 23px;
+}
+h1 + p{
+    margin: 0;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--gray-color);
+}
+.prog{
+    margin-top: 13px;
+    gap: 10px;
+}
+.prog div{
+    width: 135px;
+    height: 8px;
+    background-color: #EFEDEA;
+}
+.prog div span{
+    width: 52px;
+    height: 8px;
+    background-color: var(--primary-color);
+}
+.box{
+    margin-left: 60px;
+}
+h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: var(--black-color);
+    margin-top: 8px;
+}
+h4 + p{
+    color: var(--gray-color);
+}
+.services{
+    margin-top: 70px;
+}

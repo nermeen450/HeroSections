@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&family=Poppins:wght@400;600&display=swap');
+
+:root{
+    --gray-color:#DEDAD5;
+    --black-color:#424241;
+    --gray-3-color:#9E9D9B;
+    --gray-2-color:#FAF8F5;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    min-height: fit-content;
+}
+.row{
+    position: relative;
+    z-index: 10;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.overlay{
+    height: 100%;
+    width: 50%;
+    right: 0;
+    top: 0;
+    background-color: var(--gray-color);
+    min-height: 130vh;
+    z-index: 1;
+}
+.hero{
+    margin-top: 61px;
+}
+.hero-text{
+    text-wrap: wrap;
+    z-index: 10;
+    position: relative;
+}
+.navbar-brand{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+   color: var(--gray-3-color);
+}
+ul:first-of-type{
+    gap: 32px;
+}
+ul:last-of-type{
+    gap: 20px;
+}
+.menu{
+    margin-left: 40px;
+    cursor: pointer;
+}
+.navbar{
+    z-index: 10;
+}
+.main-btn{
+    background-color: var(--black-color);
+    padding: 14px 20px;
+    color: var(--gray-2-color);
+}
+.links:first-child{
+    margin-right: 32px;
+}
+.main-btn:last-of-type{
+    background-color: #fff;
+    color: var(--black-color);
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--gray-3-color);
+    margin-bottom: 56px;
+    margin-top: 32px;
+}
+.srv-box{
+    padding: 32px;
+    left: 20px;
+    bottom: -300px;
+}
+.srv-box li{
+    width: 250px;
+}
+.srv-box li:not(:last-of-type){
+    border-bottom: 1px solid var(--gray-color);
+    padding: 20px 0;
+}
+.srv-box li:last-of-type{
+    padding-top: 20px;
+}
+.srv-box .num{
+    color: var(--gray-3-color);
+    margin-right: 20px;
+}
+h6, .num{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+h6{
+    color: var(--black-color);
+}
+.srv-box li img{
+    float: right;
+}
+.stat{
+    margin-top: 150px;
+    padding-bottom: 67px;
+}
+h2{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 96px;
+}
+h2 + span{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gray-3-color);
+    line-height: 32px;
+}
+.stat .container{
+    gap: 50px;
+}
+.stat .container div{
+    width: 80px;
+}
+.gray-box{
+    background-color: var(--gray-2-color);
+    width: 427px;
+    height: 161px;
+    left: 32%;
+    bottom: 0;
+    z-index: -1;
+}

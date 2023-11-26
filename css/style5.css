@@ -1,0 +1,123 @@
+body{
+    --dark-color:#264065;
+    --main-color:#A9D6CB;
+    --text-color:#909090;
+    --white-color:#fff;
+    overflow-x: hidden;
+    
+}
+.top{
+    background-color: #FAF8F5;
+    margin-bottom: 20vh;
+}
+.spa{
+    width: 472.5px;
+    height: 436.59px;
+    right: 40px;
+    top: 50px;
+    z-index: 10;
+}
+.overlay{
+    width: 470px;
+    height: 762px;
+    background-color: var(--main-color);
+    top: 0;
+    right: 0;
+}
+.navbar{
+    padding: 30px 0;
+}
+.navbar .nav-item a{
+    color: var(--dark-color);
+}
+.navbar .nav-item a.active{
+    color: var(--dark-color);
+}
+.navbar a:not(.main-btn){
+    color: var(--dark-color);
+    margin-right: 10px;
+    line-height: 40px;
+}
+.navbar-brand{
+    font-size: 36px;
+    font-weight: 600;
+}
+.colored{
+    color: var(--main-color);
+}
+.main-btn{
+    background-color: var(--dark-color);
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 32px;
+    color: var(--white-color);
+}
+form img:last-child{
+    margin-right: 30px;
+}
+.play{
+    width: 48px;
+    height: 48px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10.5px;
+}
+.play + span{
+    line-height: 48px;
+    color: var(--dark-color);
+}
+h1{
+    font-size: 64px;
+    color: var(--dark-color);
+    line-height: 80px;
+    margin-bottom: 32px;
+}
+h3{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    color: var(--dark-color);
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--text-color);
+    margin-bottom: 56px;
+}
+.hero-links{
+    gap: 32px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-toggle + span{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.boxs{
+    gap: 36px;
+    background-color: var(--white-color);
+    padding: 32px 32px 0;
+    border-radius: 16px;
+    z-index: 100;
+}
+.boxs h3{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.box .img-container{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
+.beauty{
+    top: -20px;
+    z-index: 10;
+    right: -100px;
+}

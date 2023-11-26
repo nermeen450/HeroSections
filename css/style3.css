@@ -1,0 +1,135 @@
+body{
+    overflow-x: hidden;
+    background-image: url(../img/background.svg);
+    background-color: #eee;
+    --text-color:#909090;
+    --tilte-color:#303030;
+    --white-color:#F6F6F6;
+    padding-bottom: 73px;
+}
+h1{
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 100px;
+    width: fit-content;
+    margin: auto;
+}
+h1 span{
+    bottom: -17px;
+    width: 80px;
+    height: 4px;
+    background-color: #CAC6BB;
+    left: 0;
+}
+h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 47px;
+    margin-bottom: 32px;
+}
+h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+p, h3 span{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+h3 span{
+    line-height: 19.94px;
+    color: var(--text-color);
+}
+h1, h3, h5{
+    color: var(--tilte-color);
+}
+p{
+    line-height: 32px;
+}
+.navbar{
+    position: relative;
+    padding: 50px 0;
+}
+.navbar .navbar-nav:last-child .nav-item:not(:last-child){
+    margin-right: 24px;
+}
+.navbar .navbar-nav:first-child .nav-item:not(:last-child){
+    margin-right: 36px;
+}
+.navbar span{
+    color: var(--text-color);
+}
+.navbar .nav-item a{
+    color: var(--tilte-color);
+    font-size: 18px;
+    line-height: 19.94px;
+}
+.navbar-brand{
+    position: absolute;
+    font-size: 36px;
+    font-weight: bold;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pic-container{
+    position: relative;
+    overflow: hidden;
+}
+.pic-container::before{
+    content: "";
+    position: absolute;
+    background-color: #CAC6BB;
+    left: 5%;
+    width: calc(100% - 10%);
+    height: 503px;
+    z-index: -1;
+    top: 22%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.pic-container::after{
+    content: "";
+    position: absolute;
+    background-color: #eee;
+    width: 100%;
+    height: 503px;
+    z-index: -10;
+    top: 18%;
+    left: 0;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border: 1px solid #CAC6BB;
+}
+.row{
+    margin-top: 70px;
+}
+.stats{
+    gap: 30px;
+    margin-top: 73px;
+}
+a.main-btn{
+    padding: 16px 36px;
+    margin-top: 48px;
+    background-color: var(--tilte-color);
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 24px;
+    display: inline-block;
+    width: fit-content;
+}
+.title .img-container{
+    background-color: var(--white-color);
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+.title{
+    margin-bottom: 16px;
+}
+.srv-box{
+    margin-bottom: 33px;
+}
+.stat h3{
+    margin-bottom: 10px;
+}

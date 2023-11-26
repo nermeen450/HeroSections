@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&family=Poppins:wght@400;600&display=swap');
+:root{
+    --black-color:#313131;
+    --gray-2-color:#909090;
+    --primary-color:#F5993C;
+    --white-color:#fff;
+    --gray-color:#eee;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav, section:not(section.partners){
+    background-color: var(--gray-color);
+}
+.hero{
+    padding-bottom: 80px;
+}
+.navbar-brand{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+li{
+    list-style: none;
+    color: var(--black-color);
+}
+.nav-link{
+    color: var(--black-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+ul{
+    gap: 32px;
+}
+nav:first-of-type .container{
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 1px solid var(--gray-2-color);
+}
+.colored{
+    color: var(--primary-color);
+}
+.main-btn{
+    padding: 16px 40px;
+    border-radius: 32px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.main-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 112px;
+    margin-bottom: 16px;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--gray-2-color);
+    margin-bottom: 32px;
+}
+.links{
+    gap: 32px;
+}
+.links .more{
+    padding: 16px 24px;
+    border-radius: 32px;
+    border: 1px solid var(--black-color);
+    color: var(--black-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+.play-container{
+    width: 48px;
+    height: 48px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    margin-right: 10.5px;
+}
+.play-container + span{
+    font-size: 18px;
+}
+.car{
+    left: -75px;
+    top: 20px;
+}
+.partners .row{
+    padding: 0 105px;
+}
+.search-box{
+    background-color: var(--white-color);
+    padding: 34px 40px;
+    border-radius: 96px;
+    gap: 25px;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--gray-2-color);
+}
+h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--gray-2-color);
+}
+.search-btn{
+    padding: 16px 48px;
+    background-color: #6ED4D4;
+    color: var(--white-color);
+    border-radius: 96px;
+}
+.search-box select{
+    width: 160px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+
+}
+.line{
+    width: 1px;
+    height: 60px;
+    background-color: var(--gray-2-color);
+    opacity: 0.5;
+}
